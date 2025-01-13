@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1736027453311" clover="3.2.0">
-  <project timestamp="1736027453311" name="All files">
+<coverage generated="1736791297113" clover="3.2.0">
+  <project timestamp="1736791297113" name="All files">
     <metrics statements="50" coveredstatements="43" conditionals="5" coveredconditionals="3" methods="20" coveredmethods="17" elements="75" coveredelements="63" complexity="0" loc="50" ncloc="50" packages="2" files="2" classes="2"/>
     <package name="src">
       <metrics statements="46" coveredstatements="39" conditionals="5" coveredconditionals="3" methods="19" coveredmethods="16"/>
-      <file name="transcriptManager.ts" path="C:\Users\wand\OneDrive\Documents\Work\Courses\CS 4530 Spring 2025\My Modules Workspace\Module 03 Test Adequacy\module03-test-adequacy\src\transcriptManager.ts">
+      <file name="transcriptManager.ts" path="C:\Users\Maggie Tong\Documents\SP25\sweng\class-activities\CS4530-module3\src\transcriptManager.ts">
         <metrics statements="46" coveredstatements="39" conditionals="5" coveredconditionals="3" methods="19" coveredmethods="16"/>
         <line num="11" count="1" type="stmt"/>
         <line num="13" count="1" type="stmt"/>
@@ -56,7 +56,7 @@
     </package>
     <package name="src.mocksExample">
       <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-      <file name="Calculator.ts" path="C:\Users\wand\OneDrive\Documents\Work\Courses\CS 4530 Spring 2025\My Modules Workspace\Module 03 Test Adequacy\module03-test-adequacy\src\mocksExample\Calculator.ts">
+      <file name="Calculator.ts" path="C:\Users\Maggie Tong\Documents\SP25\sweng\class-activities\CS4530-module3\src\mocksExample\Calculator.ts">
         <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="1" count="1" type="stmt"/>
         <line num="3" count="2" type="stmt"/>
