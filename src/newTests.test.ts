@@ -30,6 +30,21 @@ describe('TranscriptManagerNewTests', () => {
     });
 
   })
+  describe('getStudentIDs', () => {
+    it('Should return only the students who match the name', () => {
+      const avery1 = db.addStudent('avery');
+      const avery2 = db.addStudent('avery');
+      const ripley = db.addStudent('ripley');
+
+      //Probably should be checking if arrays contain same set of IDs, permitting different orders...
+      //Checks array content, ignoring order
+      const avery_id = db.getStudentIDs('avery');
+      expect(avery_id.length).toEqual(2);
+      expect(avery_id).toContain(avery1);
+      expect(avery_id).toContain(avery2);
+      expect(db.getStudentIDs('ripley')).toEqual([ripley]);
+    })
+  });
 
   
 
